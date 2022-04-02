@@ -1,0 +1,123 @@
+.p0 {
+  width: 420px;
+  height: 280px;
+  background: #eefc04;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 2.5px 5px;
+}
+
+.pb {
+  width: 500px;
+  height: 390px;
+  background: #04fcef;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 2.5px 5px;
+}
+
+.p1 {
+  width: 420px;
+  height: 280px;
+  background: #1cfc04;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 2.5px 5px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.button {
+  width: 40px;
+  height: 35px;
+  font-size: 35px;
+  background: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.run {
+  width: 115px;
+  height: 40px;
+  font-size: 35px;
+  background: #f1c40f;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.playerbutton {
+  width: 100px;
+  height: 130px;
+  font-size: 35px;
+  background: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  text-align: center;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+.gamebody {
+  background-color: #b3b6b7;
+}
+
+.intro {
+  width: 750px;
+  height: 120px;
+  font-size: 35px;
+  background: #f39c12;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  padding-top: 40px;
+}
+
+.time {
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  font-size: 35px;
+  background: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.playerchances {
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  font-size: 35px;
+  background: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 2px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.develop {
+  color: black;
+  text-align: right;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 0px;
+  text-decoration-style: solid;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.bc {
+  background-image: url("C://Users//Vasanth//Desktop//ground.PNG");
+  background-size: 100px 170px;
+  color: black;
+}

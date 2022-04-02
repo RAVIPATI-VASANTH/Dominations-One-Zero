@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dominations=#RRR-Product</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="gamebody" onload="byload()">
+    <center>
+      <table class="tab">
+        <tr>
+          <td>
+            <div class="p0">
+              <center><strong style="font-size: 25px">MR.ZERO</strong></center>
+              <table>
+                <tr>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c01"
+                      onclick="cardselected('c01','0');"
+                    ></div>
+                  </td>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c02"
+                      onclick="cardselected('c02','0')"
+                    ></div>
+                  </td>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c03"
+                      onclick="cardselected('c03','0')"
+                    ></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td>
+            <div class="pb">
+              <center>
+                <strong style="font-size: 25px">PLAY BOARD</strong>
+              </center>
+              <table>
+                <tr>
+                  <td>
+                    <div class="button" id="d1">10</div>
+                  </td>
+                  <td>
+                    <div class="button" id="b00" onclick="insert('b00')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b01" onclick="insert('b01')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b02" onclick="insert('b02')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b03" onclick="insert('b03')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b04" onclick="insert('b04')"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="button" id="d2">20</div>
+                  </td>
+                  <td>
+                    <div class="button" id="b10" onclick="insert('b10')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b11" onclick="insert('b11')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b12" onclick="insert('b12')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b13" onclick="insert('b13')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b14" onclick="insert('b14')"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="button" id="d3">30</div>
+                  </td>
+                  <td>
+                    <div class="button" id="b20" onclick="insert('b20')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b21" onclick="insert('b21')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b22" onclick="insert('b22')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b23" onclick="insert('b23')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b24" onclick="insert('b24')"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="button" id="d4">40</div>
+                  </td>
+                  <td>
+                    <div class="button" id="b30" onclick="insert('b30')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b31" onclick="insert('b31')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b32" onclick="insert('b32')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b33" onclick="insert('b33')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b34" onclick="insert('b34')"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="button" id="d5">50</div>
+                  </td>
+                  <td>
+                    <div class="button" id="b40" onclick="insert('b40')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b41" onclick="insert('b41')"></div>
+                  </td>
+                  <td>
+                    <div class="button" id="b42" onclick="insert('b42')"></div>
+                  </td>
+                  <td colspan="2">
+                    <div class="run" onclick="run_result()">RUN</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td>
+            <div class="p1">
+              <center><strong style="font-size: 25px">MR.ONE</strong></center>
+              <table>
+                <tr>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c11"
+                      onclick="cardselected('c11','1')"
+                    ></div>
+                  </td>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c12"
+                      onclick="cardselected('c12','1')"
+                    ></div>
+                  </td>
+                  <td>
+                    <div
+                      class="playerbutton bc"
+                      id="c13"
+                      onclick="cardselected('c13','1')"
+                    ></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <div class="playerchances" id="chance">chance</div>
+          </td>
+          <td>
+            <div class="time" id="timer"></div>
+          </td>
+        </tr>
+      </table>
+      <div class="intro" id="test1">
+        <strong>The DOMINATIONS<br />ZERO - ONE</strong>
+      </div>
+    </center>
+    <script src="scripts.js"></script>
+  </body>
+</html>
